@@ -1,0 +1,249 @@
+@font-face{
+	font-family:Raledot;
+	src:url(RalewayDots-Regular.ttf);
+}
+@font-face{
+	font-family:Robotthin;
+	src:url(Roboto-Thin.ttf);
+}
+@font-face{
+	font-family:Robotlight;
+	src:url(Robot-Light.ttf);
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset*/
+/*Start of custom css*/
+body{
+	background: url(background.jpg);
+	font-family:'Robotlight',Helvetica,arial,sans-serif;
+	/*text-shadow:1px 1px white;*/
+	color:white;
+	min-height:100%;
+	font-weight:100;
+	
+}
+.top{
+/*	border:1px solid red;
+*/	height:300px;
+}
+.left{
+	display:inline-block;
+	position:relative;
+		/*border:1px solid black;*/
+	float:left;
+	margin-left: 3%;
+	margin-top: 3%;
+
+}
+
+.title{
+	display:inline-block;
+	color:white;
+	height:40px;
+	font-family:'Raledot';
+	font-size:4em;
+	text-shadow:1px 1px white;
+}
+.modellist{
+	display:inline-block;
+	margin-left:3%;
+	margin-top:5%;
+	height:150px;
+	/*border:1px solid black;*/
+	font-size:1.75em;
+	line-height:1.5;
+}
+.modellist li{
+	list-style-type:circle;
+	font-family:courier;
+}
+.modellist li:hover{
+	list-style-type:disc;
+	font-weight:bold;
+}
+
+.right{
+	position:relative;
+	display:inline-block;
+/*	border:1px solid black;
+*/	height:150px;
+	float:right;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+.model{
+	right:10%;
+	top:5%;
+	font-family:Courier;
+	font-size:2em;
+	text-align:right;
+}
+.infoblock{
+	position:relative;
+	width:345px;
+	line-height:1.3;
+	display:inline-block;
+	font-size:1.40em;
+	text-align:right;
+	float:right;
+	margin-top:5%;
+	font-family:'Robotthin';
+	
+}
+b{
+	text-shadow:1px 1px white;
+}
+
+
+.slider{
+	position:relative;
+	margin-top:15%;
+	height:75px;
+	/*border:1px solid orange;*/
+}
+.prev{
+/*	position:absolute;
+	left:3%;
+*/
+	margin-left:20px;
+	width:75px;
+	float:left;
+	cursor:pointer;}
+.next{
+/*	position:absolute;
+	right:3%;*/
+	margin-right:20px;
+	width:75px;
+	float:right;
+	cursor:pointer;
+}
+.player
+{
+	position:relative;
+	/*border:1px solid white;*/
+	margin-top:5%;
+	text-align:center;
+	border:none;
+	color:white;
+	display:block;
+
+}
+
+.rewind{
+	background-color:transparent;
+	background:url(images/playrew.png) -235px 90px;
+	height:90px;
+	width: 85px;
+	/*background-size:contain;*/
+	color:transparent;
+	border:none;
+}
+.play{
+	background-color:transparent;
+	background:url(images/playrew.png) -160px -5px;
+	height:90px;
+	width: 85px;
+	/*background-size:contain;*/
+	color:transparent;
+	border:none;
+}
+.stop{
+	background-color:transparent;
+	background:url(images/playrew.png) -80px 90px;
+	height:90px;
+	width: 85px;
+	/*background-size:contain;*/
+	color:transparent;
+	border:none;
+}
+.forward{
+	background-color:transparent;
+	background:url(images/playrew.png) 0px -5px;
+	height:88px;
+	width: 85px;
+	/*background-size:contain;*/
+	color:transparent;
+	border:none;
+}
+.player button:active, button:focus{
+	outline:none;
+	-moz-outline-style: none;
+	-webkit-outline-style:none;
+}
+nav{
+	position:relative;
+	text-align:center;
+	font-size:1.6em;
+	color:#64FFA6;
+	text-shadow:2px 2px black;
+	font-family:'Robotlight';
+}
+nav li{
+	display:inline-block;
+}
+nav li:hover{
+	color:#7A8DFF;
+	text-decoration:underline;
+	text-shadow:2px 2px blue;
+}
+footer{
+	position:fixed;
+	bottom:3%;
+	left:1%;
+	height:10px;
+	font-family:'Robotlight';
+	font-size:1.1em;
+	text-shadow:none;
+}
+
+/**{
+	border:2px solid white;
+}*/

@@ -1,0 +1,80 @@
+<mockup version="1.0" skin="wireframe" fontFace="_sans" measuredW="1203" measuredH="801" mockupW="1203" mockupH="801">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1203" h="801" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>WaxRecords%0Ahttp%3A//www.WaxRecords.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="0" y="72" w="1203" h="729" measuredW="2000" measuredH="1000" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./o-RECORD-PLAYER-facebook.jpg</src>
+        <text>Image%20of%20classic%20record%20player</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Accordion" x="76" y="145" w="150" h="88" measuredW="150" measuredH="167" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Accordian</customID>
+        <markup>true</markup>
+        <selectedIndex>-1</selectedIndex>
+        <text>Early%20Classics%0A-%20Record%20Player%201%0A-%20Record%20Player%202%0AMid-Modern%0A-%20Record%20Player%201%0A-%20Record%20Player%202%0APost-Modern%0A-%20Record%20Player%201%0A-%20Record%20Player%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="31" y="89" w="250" h="-1" measuredW="238" measuredH="41" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <customID>waxtitle</customID>
+        <markup>true</markup>
+        <text>Wax%20Records</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::MediaControls" x="530" y="665" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::PointyButton" x="1111" y="387" w="-1" h="-1" measuredW="47" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>NextButton</customID>
+        <markup>true</markup>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::PointyButton" x="31" y="387" w="-1" h="-1" measuredW="45" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>prev%2520button</customID>
+        <direction>left</direction>
+        <markup>true</markup>
+        <text>Prev</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="969" y="145" w="200" h="108" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderColor>6710886</borderColor>
+        <color>16777215</color>
+        <customID>Explanation</customID>
+        <size>16</size>
+        <text>Model%20001%20is%20one%20of%20the%20best%2045%20players%20ever%20created.%20%20With%20its%20satin%20smooth%20finish%2C%20it%20takes%20style%20to%20whole%20new%20level.</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Title" x="714" y="89" w="456" h="-1" measuredW="448" measuredH="41" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <customID>ModelTitle</customID>
+        <markup>true</markup>
+        <text>Record%20Player%20Model%20001</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::LinkBar" x="446" y="716" w="-1" h="-1" measuredW="278" measuredH="22" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>65535</color>
+        <size>16</size>
+        <text>Home%2C%20Contact%2C%20About%2C%20Products</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="16" y="738" w="-1" h="-1" measuredW="197" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Copyright%202014%20Wax%20Records%20LLC</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
